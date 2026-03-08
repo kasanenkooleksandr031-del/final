@@ -17,7 +17,7 @@ for parse_elem_1 in response_parse:
                 res_parse_list.append(parse_elem_2)
 
 porsche = res_parse_list[1]
-print("машина порш 911 Spirit 70 -" ,porsche, "грн")
+print("машина порш 911 Spirit 70 ціна" ,porsche, "грн")
 
 def car():
     salary = int(input("введіть зарплату за місяць - "))
