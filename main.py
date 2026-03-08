@@ -22,7 +22,8 @@ print("машина порш 911 Spirit 70 ціна" ,porsche, "грн")
 def car():
     salary = int(input("введіть зарплату за місяць - "))
     percentage = int(input("введіть відсоток витрат - "))
-    m = salary * (percentage / 100)
+    m = salary - (percentage / 100 * salary)
+    print(m)
     car1 = int(porsche.replace(" ", ""))
     years = car1/m/12
     print("Щоб заробити на цю машину вам треба", round(years, 2), "років")
