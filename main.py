@@ -24,6 +24,6 @@ def car():
     percentage = int(input("введіть відсоток витрат - "))
     m = salary - (percentage / 100 * salary)
     car1 = int(porsche.replace(" ", ""))
-    years = car1/m/12
+    years = car1 / m / 12
     print("Щоб заробити на цю машину вам треба", round(years, 2), "років")
 car()
